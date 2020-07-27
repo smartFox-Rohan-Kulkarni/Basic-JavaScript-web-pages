@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="../css/scriptingForCanvasDemo.css">
+		<script src="../javascript/DLTCP.js"></script>
+	</head>
+	<body>
+	
+		<canvas  id="canvas1">
+
+		</canvas>
+		<canvas  id="canvas2">
+
+		</canvas>
+		<canvas  id="canvas3">
+
+		</canvas><br><br>
+	<div class="posCenter"> 
+		<input id = "foregroundInput" type="file" onchange="uploadForegroundImage()" accept="image/*" value = "upload" multiple="false" />
+		<input id = "backgroundInput" type="file" onchange="uploadBackgroundImage()" accept="image/*" value = "upload" multiple="false" />
+		<br>
+		<button onclick="createComposite()">Create Composite</button>
+		<button onclick="clearAllImages()">clear all</button>
+	</div>
+	</body>
+</html>

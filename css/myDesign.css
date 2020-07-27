@@ -1,0 +1,33 @@
+body {
+  background-color: dimgrey;
+}
+div {
+
+	width: 140pt;
+	padding: 5pt;
+	margin: 10pt;
+	border: 1px solid lightgrey;
+	font-size: 16pt;
+	margin-left: 45%;
+	color: red;
+	background-color: lightsteelblue;
+	
+}
+.align-center{
+	margin-left: 45%;
+}
+
+.ColorDeepPurple{
+	color: pink;
+	background-color: purple;	
+}
+
+.ColorDeepOrange{
+	color: orange;
+	background-color: slateblue;
+}
+
+h1 {
+  color: navy;
+  margin-left: 20px;
+}
